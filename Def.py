@@ -231,6 +231,8 @@ def feeling_weather():
   Today=datetime.now()
   today=Today.strftime("%Y%m%d")
   weekend=Today.weekday()
+  if weekend==0:
+        weekend=7
 
   sum=0
   for i in range(7):

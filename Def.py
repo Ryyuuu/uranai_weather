@@ -250,7 +250,7 @@ def feeling_weather():
     ans=sum
   
   if ans%7==0:
-    return pycolor.ACCENT+"☀今日のあなたの気分予報結果☀：快晴　　今日1日気持ち良く過ごせるでしょう！"+pycolor.END
+    return pycolor.ACCENT+"☀今日のあなたの運勢予報結果☀：快晴　　今日1日気持ち良く過ごせるでしょう！"+pycolor.END
   elif ans%weekend==0:
-    return pycolor.ACCENT+"☀今日のあなたの気分予報結果☀：晴れ　　今日1日平穏に過ごせるでしょう！"+pycolor.END
-  return pycolor.ACCENT+"☔今日のあなたの気分予報結果☀：曇りのち晴れ☀　　午後に気分が上がる出来事が起きるでしょう！"+pycolor.END  
+    return pycolor.ACCENT+"☀今日のあなたの運勢予報結果☀：晴れ　　今日1日平穏に過ごせるでしょう！"+pycolor.END
+  return pycolor.ACCENT+"☔今日のあなたの運勢予報結果☀：曇りのち晴れ☀　　午後に気分が上がる出来事が起きるでしょう！"+pycolor.END  
